@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C980ED1B13BCE014004017F9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C980ED1A13BCE014004017F9 /* UIKit.framework */; };
+		C980ED1D13BCE014004017F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C980ED1C13BCE014004017F9 /* Foundation.framework */; };
+		C980ED1F13BCE014004017F9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C980ED1E13BCE014004017F9 /* CoreGraphics.framework */; };
+		C980ED2513BCE014004017F9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C980ED2313BCE014004017F9 /* InfoPlist.strings */; };
+		C980ED2713BCE014004017F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C980ED2613BCE014004017F9 /* main.m */; };
+		C980ED2B13BCE014004017F9 /* AnimationTimeWarpAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C980ED2A13BCE014004017F9 /* AnimationTimeWarpAppDelegate.m */; };
+		C980ED2D13BCE014004017F9 /* AnimationTimeWarpViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = C980ED2C13BCE014004017F9 /* AnimationTimeWarpViewController.h */; };
+		C980ED2F13BCE014004017F9 /* AnimationTimeWarpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C980ED2E13BCE014004017F9 /* AnimationTimeWarpViewController.m */; };
+		C980ED3213BCE014004017F9 /* AnimationTimeWarpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C980ED3013BCE014004017F9 /* AnimationTimeWarpViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C980ED1613BCE014004017F9 /* AnimationTimeWarp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationTimeWarp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C980ED1A13BCE014004017F9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C980ED1C13BCE014004017F9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C980ED1E13BCE014004017F9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C980ED2213BCE014004017F9 /* AnimationTimeWarp-Info.plist */ = {isa = PBXFileReference; path = "AnimationTimeWarp-Info.plist"; sourceTree = "<group>"; };
+		C980ED2413BCE014004017F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C980ED2613BCE014004017F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C980ED2813BCE014004017F9 /* AnimationTimeWarp-Prefix.pch */ = {isa = PBXFileReference; path = "AnimationTimeWarp-Prefix.pch"; sourceTree = "<group>"; };
+		C980ED2913BCE014004017F9 /* AnimationTimeWarpAppDelegate.h */ = {isa = PBXFileReference; path = AnimationTimeWarpAppDelegate.h; sourceTree = "<group>"; };
+		C980ED2A13BCE014004017F9 /* AnimationTimeWarpAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationTimeWarpAppDelegate.m; sourceTree = "<group>"; };
+		C980ED2C13BCE014004017F9 /* AnimationTimeWarpViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationTimeWarpViewController.h; sourceTree = "<group>"; };
+		C980ED2E13BCE014004017F9 /* AnimationTimeWarpViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationTimeWarpViewController.m; sourceTree = "<group>"; };
+		C980ED3113BCE014004017F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AnimationTimeWarpViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C980ED1313BCE014004017F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C980ED1B13BCE014004017F9 /* UIKit.framework in Frameworks */,
+				C980ED1D13BCE014004017F9 /* Foundation.framework in Frameworks */,
+				C980ED1F13BCE014004017F9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C980ED0B13BCE014004017F9 = {
+			isa = PBXGroup;
+			children = (
+				C980ED2013BCE014004017F9 /* AnimationTimeWarp */,
+				C980ED1913BCE014004017F9 /* Frameworks */,
+				C980ED1713BCE014004017F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C980ED1713BCE014004017F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C980ED1613BCE014004017F9 /* AnimationTimeWarp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C980ED1913BCE014004017F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C980ED1A13BCE014004017F9 /* UIKit.framework */,
+				C980ED1C13BCE014004017F9 /* Foundation.framework */,
+				C980ED1E13BCE014004017F9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C980ED2013BCE014004017F9 /* AnimationTimeWarp */ = {
+			isa = PBXGroup;
+			children = (
+				C980ED2913BCE014004017F9 /* AnimationTimeWarpAppDelegate.h */,
+				C980ED2A13BCE014004017F9 /* AnimationTimeWarpAppDelegate.m */,
+				C980ED2C13BCE014004017F9 /* AnimationTimeWarpViewController.h */,
+				C980ED2E13BCE014004017F9 /* AnimationTimeWarpViewController.m */,
+				C980ED3013BCE014004017F9 /* AnimationTimeWarpViewController.xib */,
+				C980ED2113BCE014004017F9 /* Supporting Files */,
+			);
+			path = AnimationTimeWarp;
+			sourceTree = "<group>";
+		};
+		C980ED2113BCE014004017F9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C980ED2213BCE014004017F9 /* AnimationTimeWarp-Info.plist */,
+				C980ED2313BCE014004017F9 /* InfoPlist.strings */,
+				C980ED2613BCE014004017F9 /* main.m */,
+				C980ED2813BCE014004017F9 /* AnimationTimeWarp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C980ED1513BCE014004017F9 /* AnimationTimeWarp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C980ED3513BCE014004017F9 /* Build configuration list for PBXNativeTarget "AnimationTimeWarp" */;
+			buildPhases = (
+				C980ED1213BCE014004017F9 /* Sources */,
+				C980ED1313BCE014004017F9 /* Frameworks */,
+				C980ED1413BCE014004017F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnimationTimeWarp;
+			productName = AnimationTimeWarp;
+			productReference = C980ED1613BCE014004017F9 /* AnimationTimeWarp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C980ED0D13BCE014004017F9 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C980ED1013BCE014004017F9 /* Build configuration list for PBXProject "AnimationTimeWarp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C980ED0B13BCE014004017F9;
+			productRefGroup = C980ED1713BCE014004017F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C980ED1513BCE014004017F9 /* AnimationTimeWarp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C980ED1413BCE014004017F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C980ED2513BCE014004017F9 /* InfoPlist.strings in Resources */,
+				C980ED2D13BCE014004017F9 /* AnimationTimeWarpViewController.h in Resources */,
+				C980ED3213BCE014004017F9 /* AnimationTimeWarpViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C980ED1213BCE014004017F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C980ED2713BCE014004017F9 /* main.m in Sources */,
+				C980ED2B13BCE014004017F9 /* AnimationTimeWarpAppDelegate.m in Sources */,
+				C980ED2F13BCE014004017F9 /* AnimationTimeWarpViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C980ED2313BCE014004017F9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C980ED2413BCE014004017F9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C980ED3013BCE014004017F9 /* AnimationTimeWarpViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C980ED3113BCE014004017F9 /* en */,
+			);
+			name = AnimationTimeWarpViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C980ED3313BCE014004017F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		C980ED3413BCE014004017F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C980ED3613BCE014004017F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AnimationTimeWarp/AnimationTimeWarp-Prefix.pch";
+				INFOPLIST_FILE = "AnimationTimeWarp/AnimationTimeWarp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C980ED3713BCE014004017F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AnimationTimeWarp/AnimationTimeWarp-Prefix.pch";
+				INFOPLIST_FILE = "AnimationTimeWarp/AnimationTimeWarp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C980ED1013BCE014004017F9 /* Build configuration list for PBXProject "AnimationTimeWarp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C980ED3313BCE014004017F9 /* Debug */,
+				C980ED3413BCE014004017F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C980ED3513BCE014004017F9 /* Build configuration list for PBXNativeTarget "AnimationTimeWarp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C980ED3613BCE014004017F9 /* Debug */,
+				C980ED3713BCE014004017F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C980ED0D13BCE014004017F9 /* Project object */;
+}
