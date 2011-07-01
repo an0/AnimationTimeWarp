@@ -16,6 +16,8 @@
 		C980ED2D13BCE014004017F9 /* AnimationTimeWarpViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = C980ED2C13BCE014004017F9 /* AnimationTimeWarpViewController.h */; };
 		C980ED2F13BCE014004017F9 /* AnimationTimeWarpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C980ED2E13BCE014004017F9 /* AnimationTimeWarpViewController.m */; };
 		C980ED3213BCE014004017F9 /* AnimationTimeWarpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C980ED3013BCE014004017F9 /* AnimationTimeWarpViewController.xib */; };
+		C980ED3A13BCE08A004017F9 /* Canvas.m in Sources */ = {isa = PBXBuildFile; fileRef = C980ED3913BCE08A004017F9 /* Canvas.m */; };
+		C980ED3C13BCE12C004017F9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C980ED3B13BCE12C004017F9 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,15 +25,18 @@
 		C980ED1A13BCE014004017F9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C980ED1C13BCE014004017F9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C980ED1E13BCE014004017F9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		C980ED2213BCE014004017F9 /* AnimationTimeWarp-Info.plist */ = {isa = PBXFileReference; path = "AnimationTimeWarp-Info.plist"; sourceTree = "<group>"; };
+		C980ED2213BCE014004017F9 /* AnimationTimeWarp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AnimationTimeWarp-Info.plist"; sourceTree = "<group>"; };
 		C980ED2413BCE014004017F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C980ED2613BCE014004017F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C980ED2813BCE014004017F9 /* AnimationTimeWarp-Prefix.pch */ = {isa = PBXFileReference; path = "AnimationTimeWarp-Prefix.pch"; sourceTree = "<group>"; };
-		C980ED2913BCE014004017F9 /* AnimationTimeWarpAppDelegate.h */ = {isa = PBXFileReference; path = AnimationTimeWarpAppDelegate.h; sourceTree = "<group>"; };
+		C980ED2813BCE014004017F9 /* AnimationTimeWarp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AnimationTimeWarp-Prefix.pch"; sourceTree = "<group>"; };
+		C980ED2913BCE014004017F9 /* AnimationTimeWarpAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationTimeWarpAppDelegate.h; sourceTree = "<group>"; };
 		C980ED2A13BCE014004017F9 /* AnimationTimeWarpAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationTimeWarpAppDelegate.m; sourceTree = "<group>"; };
 		C980ED2C13BCE014004017F9 /* AnimationTimeWarpViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationTimeWarpViewController.h; sourceTree = "<group>"; };
 		C980ED2E13BCE014004017F9 /* AnimationTimeWarpViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationTimeWarpViewController.m; sourceTree = "<group>"; };
 		C980ED3113BCE014004017F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AnimationTimeWarpViewController.xib; sourceTree = "<group>"; };
+		C980ED3813BCE08A004017F9 /* Canvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Canvas.h; sourceTree = "<group>"; };
+		C980ED3913BCE08A004017F9 /* Canvas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Canvas.m; sourceTree = "<group>"; };
+		C980ED3B13BCE12C004017F9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C980ED3C13BCE12C004017F9 /* QuartzCore.framework in Frameworks */,
 				C980ED1B13BCE014004017F9 /* UIKit.framework in Frameworks */,
 				C980ED1D13BCE014004017F9 /* Foundation.framework in Frameworks */,
 				C980ED1F13BCE014004017F9 /* CoreGraphics.framework in Frameworks */,
@@ -68,6 +74,7 @@
 		C980ED1913BCE014004017F9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C980ED3B13BCE12C004017F9 /* QuartzCore.framework */,
 				C980ED1A13BCE014004017F9 /* UIKit.framework */,
 				C980ED1C13BCE014004017F9 /* Foundation.framework */,
 				C980ED1E13BCE014004017F9 /* CoreGraphics.framework */,
@@ -78,6 +85,8 @@
 		C980ED2013BCE014004017F9 /* AnimationTimeWarp */ = {
 			isa = PBXGroup;
 			children = (
+				C980ED3813BCE08A004017F9 /* Canvas.h */,
+				C980ED3913BCE08A004017F9 /* Canvas.m */,
 				C980ED2913BCE014004017F9 /* AnimationTimeWarpAppDelegate.h */,
 				C980ED2A13BCE014004017F9 /* AnimationTimeWarpAppDelegate.m */,
 				C980ED2C13BCE014004017F9 /* AnimationTimeWarpViewController.h */,
@@ -162,6 +171,7 @@
 				C980ED2713BCE014004017F9 /* main.m in Sources */,
 				C980ED2B13BCE014004017F9 /* AnimationTimeWarpAppDelegate.m in Sources */,
 				C980ED2F13BCE014004017F9 /* AnimationTimeWarpViewController.m in Sources */,
+				C980ED3A13BCE08A004017F9 /* Canvas.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
